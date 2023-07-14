@@ -32,6 +32,7 @@ dependencies {
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(8))
+        // TODO select the distribution
     }
 }
 
